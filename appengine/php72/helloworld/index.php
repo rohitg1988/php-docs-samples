@@ -81,8 +81,6 @@ choose your DOB
 	</form>
 	
 
-Output You are aprox 26 years and 4 months old choose your DOB 
-Create an age Calculator(Enter your DOB in text box)
 <?php
 
 error_reporting(1);
@@ -147,14 +145,14 @@ $yr=$arr[2]-$brr[2];
 
 <tr>
 
-<td align="center"><b>enter current date:</b></td>
+<td align="center"><b>enter current date (DD/MM/YYYY):</b></td>
 <td align="center"><input type="text" name="t1" autofocus></td>
 
 </tr>
 
 <tr>
 
-<td align="center"><b>enter your DOB:</b></td>
+<td align="center"><b>enter your DOB (DD/MM/YYYY):</b></td>
 
 <td align="center"><input type="text" name="t2"></td>
 
